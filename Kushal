@@ -1,0 +1,35 @@
+YouTube usually drops from 1080p to 144p when its adaptive streaming thinks your connection or device cannot reliably handle higher bitrate, or when there is a bug / setting forcing low quality. Recently, many users are also seeing sudden 144p locks due to YouTube-side issues or interactions with specific apps/browsers, even on fast internet.​​
+Main technical reasons
+Adaptive bitrate (Auto mode): YouTube continuously checks how fast video data downloads and will dynamically switch down to 144p if it detects drops, packet loss, or unstable latency to avoid buffering. Even brief Wi‑Fi glitches or other devices hogging bandwidth can trigger this.​
+Device / app limitations: Older phones, low‑end laptops, some TVs, or heavy CPU usage can struggle with decoding 1080p (especially AV1 or 60 fps), so the app may fall back to low resolutions.​​
+Account / app defaults: Quality may be set to “Auto” or “Data saver,” or a previous low‑res video can cause the app to “stick” to 144p until changed in advanced quality settings.
+
+Solution:
+When YouTube keeps dropping to 144p, you fix it by (a) forcing higher quality in settings, (b) ruling out network/device issues, and (c) working around any current YouTube‑side bug as much as possible. Below is a short checklist you can try step‑by‑step.​
+
+Step 1: Change YouTube quality settings
+On phone: Profile photo → Settings → Video quality preferences → set “Wi‑Fi” and “Mobile data” to Higher picture quality / 1080p or similar instead of Auto or Data saver.​
+
+On desktop: Click your profile → Settings → Playback and performance → choose the option that prefers HD, then on a video click the gear → Quality → Advanced → pick 1080p and avoid Auto.​​
+
+Step 2: Check if it’s a YouTube bug
+In early 2025, YouTube had a known bug where videos and Shorts got stuck at 144p/360p and even manual 1080p caused buffering; YouTube acknowledged it and rolled out a backend fix, but similar glitches may appear regionally.​
+
+If every device and network shows the same 144p behavior, even with good speeds, the issue is likely on YouTube’s side; in that case, report it (three‑dot menu → Report a problem / Help → Send feedback) and wait for their fix.​
+
+Step 3: Rule out your network
+Run a speed test; for smooth 1080p, aim for at least around 7–10 Mbps available just for that stream; if speeds are lower or fluctuate, YouTube will force a low resolution.​
+
+Try another Wi‑Fi or mobile network and, if possible, switch from Wi‑Fi to Ethernet on PC/TV to see if quality stabilizes at 720p/1080p.​
+
+Step 4: Fix app / browser issues
+Update the YouTube app from Play Store/App Store, then fully close and relaunch it; outdated builds have caused 144p‑lock bugs on some platforms.​
+
+On browser: clear cache and cookies for youtube.com, disable experimental flags, and test in another browser or incognito to rule out extensions or corrupted data.​
+
+Step 5: Check special cases
+If you use modified YouTube clients or aggressive ad‑block extensions, they can override quality defaults and “stick” videos at 144p/240p; update or temporarily disable them to test.​
+
+On smart TVs/boxes, check both the YouTube app settings and system network settings; if nothing helps and only that app misbehaves, reinstall the YouTube app or reset the TV’s app data.​
+
+If you tell which device (Android, iPhone, laptop, smart TV) and whether you’re on Wi‑Fi or mobile data, more precise steps can be given for your exact setup.
